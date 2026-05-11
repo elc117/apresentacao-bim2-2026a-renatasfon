@@ -38,9 +38,6 @@ Arquivo que contém parte do trecho escolhido: https://github.com/TEAMMATES/team
 ### Trecho do código
 
 ```java
-/**
- * Handles logic related to username and user role provisioning.
- */
 public class UserProvision {
 
     private static final UserProvision instance = new UserProvision();
