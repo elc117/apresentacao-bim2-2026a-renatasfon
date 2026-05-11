@@ -55,7 +55,7 @@ public class UserProvision {
 
 -Identifiquei o uso de composição na linha private final UsersLogic usersLogic = UsersLogic.inst();. Aqui, a classe UserProvision estabelece uma conexão fixa com outra classe chamada UsersLogic. Entendi que isso serve para separar as tarefas, ou seja, enquanto a UserProvision foca em identificar quem está acessando o sistema via cookies, ela atribui para a UsersLogic a tarefa de validar as regras desses usuários. O que um professor pode ou não fazer, o mesmo para um usuário aluno.
 
-### Referências
-https://codegym.cc/pt/groups/posts/pt.383.os-8-principais-projetos-github-de-codigo-aberto-para-aprimorar-sua-codificacao
-https://www.rocketseat.com.br/blog/artigos/post/como-comecar-aprender-java-guia-iniciantes
+# Referências
+https://codegym.cc/pt/groups/posts/pt.383.os-8-principais-projetos-github-de-codigo-aberto-para-aprimorar-sua-codificacao<br>
+https://www.rocketseat.com.br/blog/artigos/post/como-comecar-aprender-java-guia-iniciantes<br>
 Materais vistos em aulas
