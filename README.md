@@ -54,3 +54,8 @@ public class UserProvision {
 -Usei o conceito de ponteiros para entender o que a linha private static final UserProvision instance = new UserProvision(); estava fazendo, pois foi onde tive mais dificuldade. Em resumo, essa estrutura serve para não criar uma nova instância do serviço toda vez que alguém precisa de uma informação, mas sim apontar para o 'serviço oficial' que gerencia essas identidades. Isso garante que o sistema não crie vários objetos da classe UserProvision na memória, mantendo o controle centralizado."
 
 -Identifiquei o uso de composição na linha private final UsersLogic usersLogic = UsersLogic.inst();. Aqui, a classe UserProvision estabelece uma conexão fixa com outra classe chamada UsersLogic. Entendi que isso serve para separar as tarefas, ou seja, enquanto a UserProvision foca em identificar quem está acessando o sistema via cookies, ela atribui para a UsersLogic a tarefa de validar as regras desses usuários. O que um professor pode ou não fazer, o mesmo para um usuário aluno.
+
+### Referências
+https://codegym.cc/pt/groups/posts/pt.383.os-8-principais-projetos-github-de-codigo-aberto-para-aprimorar-sua-codificacao
+https://www.rocketseat.com.br/blog/artigos/post/como-comecar-aprender-java-guia-iniciantes
+Materais vistos em aulas
