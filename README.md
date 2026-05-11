@@ -9,10 +9,12 @@ Executar - java NomeArquivo
 
 ### Execução
 Para StudentGrades, o programa vai ler o arquivo students.csv e transformar cada linha em um objeto de programação e calcular a média da nota dos alunos.
--gif-
+
+![StudenGrades](./StudenGrades.gif)
 
 Para GenerateStudentData, o programa acessa a API randomuser.me para obter nomes reais de brasileiros, transforma os dados da internet em objetos da classe Student dentro do Java e atribui automaticamente uma nota entre 5.0 e 10.0 para cada aluno criado. Depois salva a lista completa em um arquivo CSV.
--gif-
+
+![GenerateStudenData](./GenerateStudenData.gif)
 
 # Parte Teórica
 ## 2 perguntas do código GenerateStudentData
