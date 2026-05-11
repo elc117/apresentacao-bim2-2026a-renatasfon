@@ -25,7 +25,7 @@ Para GenerateStudentData, o programa acessa a API randomuser.me para obter nomes
    
    Desse modo temos o Plano B (catch), que serve para que caso ocorra uma falha na conexão, o código pula para uma mensagem de erro, explicando o que aconteceu em vez de interromper a execução bruscamente.
 
-13. Como este programa se comporta sem acesso à internet?
+13\. Como este programa se comporta sem acesso à internet?
 
     O programa possui tratamento de erros para falhas de conexão como expliquei anteriormente com o try/catch. Então caso o usuário esteja sem internet, o sistema não interrompe a execução, em vez disso, ele captura a falha, mostra uma mensagem de erro ao tentar conexão com a API e mesmo assim gera o arquivo CSV utilizando o nome padrão 'Unknown' para os estudantes, com IDs e Notas aleatórias.
 
